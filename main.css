@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    height: 41px;
+    justify-content: space-between;
+    width: 1179px;
+    margin: 0 auto;
+}
+
+.logo{
+background-color: #458FF6;
+color:  #FFFFFF;
+width: 41px;
+height: 41px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 100%;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.header-right{
+ display: flex;
+ gap: 20px;
+
+}
+
+.logo text{
+    color:  #233348;
+    display: flex;
+    align-items: center;
+    height: 41px;
+} 
+
+.first{
+    color: #000000;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main{
+    width: 1179px;
+    margin: 0 auto;
+}
+
+button{
+text-align: center;
+    color: #000000;
+    border-radius: 20px;
+    height: 49px;
+    width: 198px;
+    margin-top: 30px;
+}
+
+button:hover{
+    background-color:  #458FF6;
+    color: #FFFFFF;
+transition: 0.5 all;
+}
+
+h1{
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h3{
+    text-align: center;
+    color: #000000;
+}
+
+.center{
+    text-align: center;
+}
+
+.second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.blue{
+    width: 32%;
+}
+
+.text center{
+    text-align: center;
+}
+
+.third{
+    color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fourth{
+    color: #000000;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+strong{
+    color: #FFFFFF;
+}
+footer{
+    background-color: blue;
+    padding: 140px 0;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    width: 1179px;
+    margin: 0 auto;
+
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.white{
+    color: #FFFFFF;  
+}
+
+.white-blue{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
